@@ -50,7 +50,7 @@ export default function App() {
           </div>
           <div className="flex items-center gap-2 text-sm text-blue-100">
             <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
-            <span>Данные актуальны: июнь 2025</span>
+            <span>Данные актуальны: май 2026</span>
           </div>
         </div>
       </div>
@@ -169,7 +169,7 @@ export default function App() {
               <p className="text-xs text-slate-400">
                 Данные: ЦИАН, Авито, Яндекс Недвижимость, Домклик, RealtyStats, RosRealt
               </p>
-              <p className="text-xs text-slate-300 mt-1">© 2025 ДомПрогноз — Учебный проект</p>
+              <p className="text-xs text-slate-300 mt-1">© 2026 ДомПрогноз — Учебный проект</p>
             </div>
             <div className="flex gap-2">
               {["Ростов-на-Дону", "Краснодар", "Сочи", "Волгоград"].map((c) => (

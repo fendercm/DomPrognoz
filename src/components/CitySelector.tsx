@@ -62,7 +62,7 @@ export default function CitySelector({ selectedCity, onSelect }: CitySelectorPro
           );
         })}
       </div>
-      <p className="text-xs text-slate-400 mt-3 text-center">* данные за 2025 год</p>
+      <p className="text-xs text-slate-400 mt-3 text-center">* данные за 2026 год</p>
     </div>
   );
 }

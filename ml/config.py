@@ -53,7 +53,7 @@ MACRO_FEATURES = [
 TARGET = "price_sqm"       # рублей за м²
 
 TRAIN_DATE_START = "2018-01-01"
-TRAIN_DATE_END   = "2024-12-31"
+TRAIN_DATE_END   = "2025-12-31"
 FORECAST_HORIZON = 36      # месяцев
 
 RANDOM_STATE = 42

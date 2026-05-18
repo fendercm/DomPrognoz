@@ -59,7 +59,7 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     df["floor_ratio"]      = df["floor"] / df["floor"].clip(lower=1)
     df["is_top_floor"]     = (df["floor"] == df["floors_total"]).astype("int8")
     df["is_first_floor"]   = (df["floor"] == 1).astype("int8")
-    df["building_age"]     = 2025 - df["build_year"]
+    df["building_age"]     = 2026 - df["build_year"]
     df["area_living_share"] = df["area_living"] / df["area_total"].clip(lower=1)
     df["kitchen_share"]    = df["area_kitchen"] / df["area_total"].clip(lower=1)
 

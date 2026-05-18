@@ -53,7 +53,7 @@ export default function OverviewSection({ city }: Props) {
       icon: Building,
       color: "text-violet-600",
       bg: "bg-violet-50",
-      sub: "Средняя цена 2025",
+      sub: "Средняя цена 2026",
       subColor: "text-slate-500",
     },
     {

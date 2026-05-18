@@ -149,13 +149,13 @@ export default function CalculatorSection({ city }: Props) {
             <input
               type="range"
               min={1970}
-              max={2025}
+              max={2026}
               value={year}
               onChange={(e) => setYear(Number(e.target.value))}
               className="w-full accent-emerald-600 cursor-pointer"
             />
             <div className="flex justify-between text-xs text-slate-400 mt-1">
-              <span>1970</span><span>2025</span>
+              <span>1970</span><span>2026</span>
             </div>
           </div>
 
@@ -220,7 +220,7 @@ export default function CalculatorSection({ city }: Props) {
                 { label: "Стоимость объекта", value: `${fmt(totalPrice)} ₽`, highlight: false },
                 { label: "Первоначальный взнос (20%)", value: `${fmt(downPayment)} ₽`, highlight: false },
                 { label: "Сумма кредита", value: `${fmt(loanAmount)} ₽`, highlight: false },
-                { label: "Ставка (рыночная 2025)", value: "26% / год", highlight: false },
+                { label: "Ставка (рыночная 2026)", value: "26% / год", highlight: false },
                 { label: "Срок", value: "20 лет", highlight: false },
                 { label: "Ежемесячный платёж", value: `${fmt(monthlyPayment)} ₽`, highlight: true },
               ].map((item) => (

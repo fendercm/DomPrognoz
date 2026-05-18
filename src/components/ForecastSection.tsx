@@ -50,7 +50,7 @@ const factors = [
     value: "26%",
     color: "text-red-600",
     bg: "bg-red-50",
-    desc: "Средняя ставка по ипотеке (2025)",
+    desc: "Средняя ставка по ипотеке (2026)",
   },
 ];
 
@@ -154,7 +154,7 @@ export default function ForecastSection({ city }: Props) {
               }}
               contentStyle={{ borderRadius: 12, border: "1px solid #e2e8f0", fontSize: 12 }}
             />
-            <ReferenceLine x="2025" stroke="#94a3b8" strokeDasharray="4 4" label={{ value: "Сейчас", position: "top", fontSize: 11, fill: "#94a3b8" }} />
+            <ReferenceLine x="2026" stroke="#94a3b8" strokeDasharray="4 4" label={{ value: "Сейчас", position: "top", fontSize: 11, fill: "#94a3b8" }} />
             <Legend
               formatter={(v: string) => {
                 const labels: Record<string, string> = {
